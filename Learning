@@ -1,2 +1,8 @@
+http://vpython.org/
 pip install vpython --> To install the Vpython
 pip install vpython --upgrade --> To upgrade the VPython Version
+// To define an object
+from vpython import *
+
+phere (pos = vector(1,0,0), radius = .5 , color=color.green); --> Define sphere
+arrow(pos = vector(1,0,0), axis= vector(+1,+3,0), color=color.red); --> Define Row
